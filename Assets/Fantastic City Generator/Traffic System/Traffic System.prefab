@@ -1,0 +1,70 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1221417207324282
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4293466709705848}
+  - component: {fileID: 114092109306769816}
+  m_Layer: 0
+  m_Name: Traffic System
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4293466709705848
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1221417207324282}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114092109306769816
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1221417207324282}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1638d522529597c4a8dfc8097d9ed021, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 0}
+  intenseTraffic: 0
+  trafficLightHand: 0
+  IaCars:
+  - {fileID: 904099507957589783, guid: 299de0b515a9cee46bc60108b4bd8675, type: 3}
+  - {fileID: 7046640234071119747, guid: be3edc6227acbaf4583dc3e977f5fc52, type: 3}
+  - {fileID: 2845163073472524321, guid: 64791a91576ade549b13a7f1cdc99fa7, type: 3}
+  - {fileID: 8422964749168051781, guid: ceed5ec4a046d794b8763f280beb3c9d, type: 3}
+  - {fileID: 5548364722369359882, guid: 84161948c9b40b9489a6a432975e6dac, type: 3}
+  - {fileID: 1329958932640923584, guid: bd2ec07fbdbdca34a9672e0f3eef17b3, type: 3}
+  - {fileID: 4878464104124436861, guid: 9ec4c2513a7d73243a71cafc288dc3d4, type: 3}
+  - {fileID: 1310334804853217589, guid: 25a836fb50696a24f9d290cdfbd938a5, type: 3}
+  - {fileID: 7943990268140122964, guid: c3c721462c6d0d34a8506bc36c47f418, type: 3}
+  - {fileID: 479837827042758429, guid: f6ec2bba9d2b05c4ca1700af84e39794, type: 3}
+  - {fileID: 7922200906556620191, guid: a2afe73f0688fad4db6ac9eaab141489, type: 3}
+  - {fileID: 9083300421408992149, guid: a6fff3adb1624e74399dd1ea8218efb3, type: 3}
+  - {fileID: 3785343557589468656, guid: abcfa04e19d68b644b70b35ea024d37a, type: 3}
+  - {fileID: 6163787823109568778, guid: 247f9f1880241c04baabce42b6a35ce9, type: 3}
+  - {fileID: 8195496153804433842, guid: 474ab173662b66843b37885485cb333e, type: 3}
+  - {fileID: 7922200906556620191, guid: a2afe73f0688fad4db6ac9eaab141489, type: 3}
+  - {fileID: 8195496153804433842, guid: 474ab173662b66843b37885485cb333e, type: 3}
+  - {fileID: 4878464104124436861, guid: 9ec4c2513a7d73243a71cafc288dc3d4, type: 3}
+  nVehicles: 0
+  maxVehiclesWithPlayer: 60
+  around: 180
